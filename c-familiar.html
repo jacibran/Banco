@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cuenta familiar</title>
+    <link rel="stylesheet" href="./css/c-familiar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="Image/png" href="./multimedia/favicon.png">
+  </head>
+  <body>
+    <div class="navbar">
+    <a href="./logeo-banco.html">PIBRAN Bank <i class="fas fa-piggy-bank"></i></a>
+      <a href="./main.html">Inicio</a>
+      <a href="#news">Sobre nuestro banco</a>
+      <a href="./c-familiar.html">Cuenta familiar</a>
+      <div class="dropdown">
+      <button class="botondes" onclick="desplegable()">Mi cuenta
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="DESPLEGABLE">
+        <a href="#">Preferencias</a>
+        <a href="#">Estado de mi cuenta</a>
+        <a href="#">Solicitar préstamo</a>
+      </div>
+      </div>
+    </div>
+
+    <div class="c-familia">
+      <div class="enterizo">
+        <h1>Cuenta familiar</h1>
+        <div class="borde"></div>
+        <div class="fiila">
+          <div class="coolumna">
+            <div class="familia">
+              <img src="./multimedia/p2.jpg" alt="Pichardo">
+              <div class="nombre">Francisco Javier Pichardo Santos</div>
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Creador de fondos particulares.
+              </p>
+            </div>
+          </div>
+
+          <div class="coolumna">
+            <div class="familia">
+              <img src="./multimedia/p1.png" alt="Antonio">
+              <div class="nombre">Antonio Manuel Fernandez Japón</div>
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>
+                Administrador de la cuenta familiar.
+              </p>
+            </div>
+          </div>
+
+          <div class="coolumna">
+            <div class="familia">
+              <img src="./multimedia/p3.jpg" alt="Cibran">
+              <div class="nombre">Jose Antonio Fernández Cibran</div>
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>
+                Inversor en bolsa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="desc-c-familiar">Actualmente su saldo es de <span class="dinerito">756,75<i class="fas fa-euro-sign"></i></span> en común con todas las cuentas.</p>
+    <p class="desc-c-familiar">Para poder administrar e invertir bien el dinero, les recomendamos seguir estos consejos:</p>
+    <br />
+    <br />
+
+    <div class="sencillo">
+
+    <div class="slide foto">
+      <img src="./multimedia/1.jpg" alt="1" style="width:100%">
+      <div class="texto">Enemigos financieros</div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/2.jpg" alt="2" style="width:100%">
+      <div class="texto">Principales motivos de las fintech</div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/3.jpg" alt="3" style="width:100%">
+      <div class="texto">Cubrir vacantes</div>
+    </div>
+
+    <a class="anterior" onclick="mas(-1)">&#10094;</a>
+    <a class="siguiente" onclick="mas(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="puntitos" onclick="DIAactual(1)"></span>
+      <span class="puntitos" onclick="DIAactual(2)"></span>
+      <span class="puntitos" onclick="DIAactual(3)"></span>
+    </div>
+
+    <footer>
+           <div class="footer-entero">
+            <div class="cuerpo-footer">
+              <div class="columa1">
+              <h1>Mas informacion sobre el banco</h1>
+              <p>Esta página solo está destinada al proyecto, aprendemos y hacemos lo que podemos.</p>
+              </div>
+              <div class="columa2">
+              <h1>Modernizate</h1>
+
+              <div class="fila">
+                  <i class="fab fa-facebook-f"></i>
+                  <label>Siguenos en Facebook</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-twitter"></i>
+                  <label>Enterate sobre nuestras publicaciones en Twitter</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-instagram"></i>
+                  <label>Siguenos en Instagram</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-google-plus-g"></i>
+                  <label>Te mandaremos actualizaciones por Google Plus</label>
+              </div>
+              </div>
+              <div class="columa3">
+
+              <h1>Informacion Contactos</h1>
+
+              <div class="fila2">
+                  <i class="fas fa-igloo"></i>
+                  <label>Cória del Río</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-phone"></i>
+                  <label>+34-691211434</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-paper-plane"></i>
+                   <label>PibranBank@gmail.com</label>
+                 </div>
+                 </div>
+                 </div>
+               </div>
+               <div class="cositas">
+               <div class="footer">
+               <div class="copyright">
+                 © 2019 Todos los Derechos Reservados | <a href="">PIBRAN BANK<i class="fas fa-piggy-bank"></i></a>
+             </div>
+             <div class="informacion">
+             <a href="">Informacion Compañía</a> | <a href="./politica.html">Privacion y Politica</a> | <a href="./terminos.html">Terminos y Condiciones</a>
+            </div>
+            </div>
+            </div>
+           </footer>
+<script type="text/javascript" src="./js/c-familiar.js">
+
+</script>
+  </body>
+</html>
