@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Iniciar sesión en PIBRAN Bank</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="Image/png" href="./multimedia/favicon.png">
+  </head>
+  <body>
+    <div class="navbar">
+    <a href="./index.html">PIBRAN Bank <i class="fas fa-piggy-bank"></i></a>
+      <a href="./index.html">Inicio</a>
+      <a href="./index.html">Sobre nuestro banco</a>
+      <a href="./index.html">Cuenta familiar</a>
+      <div class="dropdown">
+      <button class="botondes" onclick="desplegable()">Mi cuenta
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="DESPLEGABLE">
+        <a href="./index.html">Invierte en bolsa</a>
+        <a href="./index.html">Empieza a ahorrar ahora</a>
+      </div>
+      </div>
+    </div>
+    <div class="landing-page">
+      <div class="page-content">
+      </div>
+    </div>
+<form class="caja" action="main.html" method="post" name="myForm" onsubmit="return validarformulario()">
+  <h1>Iniciar sesión</h1>
+  <input type="text" id="user" placeholder="Usuario">
+  <input type="password" id="pass" placeholder="Contraseña">
+    <p id="errorpwdchar"></p>
+  <input type="submit" value="Login">
+</form>
+<script type="text/javascript" src="./js/index.js">
+
+</script>
+  </body>
+</html>

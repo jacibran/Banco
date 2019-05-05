@@ -1,0 +1,407 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #013A69;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .botondes {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .botondes, .botondes:focus {
+  background-color: #23648F;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #54B4D3;
+    border-radius: 10px;
+}
+
+.show {
+  display: block;
+}
+
+
+/*Calculadora*/
+.calculadora {
+	background-color: #e2e2e2;
+	width: fit-content;
+	margin: auto;
+	margin-top: 35px
+}
+
+.sr {
+	padding: 0px 18px 18px 18px;
+}
+
+.sr button {
+	width: 100%;
+	background-color: #48c;
+	color: #fff;
+	border: none;
+	font-size: 50px;
+	padding: 0px
+}
+
+.teclas {
+	display: flex;
+}
+
+.pantalla {
+	padding: 18px 18px 0px 18px;
+}
+
+.numeros {
+	padding: 18px 9px 18px 18px;
+}
+.op {
+	padding: 18px 18px 18px 9px
+}
+
+#resultado {
+	background-color: #666;
+	color: #eee;
+	padding: 6px;
+	font-family: monospace;
+	font-size: 20px
+}
+
+.op button {
+	display: block;
+	width: 54px;
+	height: 54px;
+	padding: 9px 15px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+}
+
+.numeros div{
+    text-align: center;
+}
+
+.numeros button {
+	border: 0px;
+	background-color: #fff;
+	transition: all 0.09s
+}
+
+.numeros button:hover {
+	box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+	margin: 2px 0px;
+	padding: 15px 24px;
+	font-size: 19px;
+}
+/*Calculadora*/
+
+/**Tabla de precios**/
+.main-tablaprecio{
+  background: #f1f1f1;
+  text-align: center;
+}
+.tablaprecio{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+.tablaprecio h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.presio{
+    background: #f1f1f1;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.col{
+  flex: 25%;
+  padding: 10px;
+  max-width: 320px;
+  box-sizing: border-box;
+}
+
+.tablaa{
+  background: #f1f1f1;
+  padding: 40px 20px;
+  height: 450px;
+  font-family: "montserrat",sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+}
+.tablaa h2{
+  text-transform: uppercase;
+}
+.tablaa ul{
+  margin: 0;
+  padding: 0;
+}
+.tablaa ul li{
+  padding: 10px 0;
+  list-style: none;
+}
+.precio{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.precio span{
+  display: block;
+  font-size: 14px;
+}
+.tablaa a{
+  text-decoration: none;
+  color: #2c3e50;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
+}
+.tablaa a:hover{
+  background: #2c3e50;
+  color: #fff;
+}
+.pop{
+  background: #2c3e50;
+  color: #fff;
+  transform: rotate(45deg);
+  padding: 10px 40px;
+  position: absolute;
+  top: 16px;
+  right: -34px;
+}
+/**Tabla de precios**/
+/*Formulario*/
+.seccion-contacto{
+  background-size: cover;
+  padding: 40px 0;
+}
+.seccion-contacto h1{
+  text-align: center;
+  color: Black;
+}
+.borde1{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.formulario-contacto{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.formulario-contacto-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #C6CBD4;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.formulario-contacto-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.formulario-contacto-text{
+  resize: none;
+  height: 120px;
+}
+.formulario-contacto-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.formulario-contacto-btn:hover{
+  background: #2980b9;
+}
+
+/*Formulario*/
+/**Footer**/
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+
+}
+
+.footer-entero{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.cuerpo-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columa1{
+    max-width: 400px;
+}
+
+.columa1 h1{
+    font-size: 22px;
+}
+
+.columa1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.columa2{
+    max-width: 400px;
+
+}
+
+.columa2 h1{
+    font-size: 22px;
+}
+
+.fila{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila img{
+    width: 36px;
+    height: 36px;
+}
+
+.fila label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.columa3{
+    max-width: 400px;
+}
+
+.columa3 h1{
+    font-size: 22px;
+}
+
+.fila2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.fila2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.cositas{
+    width: 100%;
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.informacion a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+/**Footer**/

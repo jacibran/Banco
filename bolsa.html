@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bolsa</title>
+    <link rel="stylesheet" href="./css/bolsa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="Image/png" href="./multimedia/favicon.png">
+  </head>
+  <body>
+    <div class="navbar">
+    <a href="./index.html">PIBRAN Bank <i class="fas fa-piggy-bank"></i></a>
+      <a href="./main.html">Inicio</a>
+      <a href="./sobre-nozotros.html">Sobre nuestro banco</a>
+      <a href="./c-familiar.html">Cuenta familiar</a>
+      <div class="dropdown">
+      <button class="botondes" onclick="desplegable()">Mi cuenta
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="DESPLEGABLE">
+        <a href="./bolsa.html">Invierte en bolsa</a>
+        <a href="./ahorra.html">Empieza a ahorrar ahora</a>
+      </div>
+      </div>
+    </div>
+
+    <br />
+        <br />
+            <br />
+    <div class="sencillo">
+
+    <div class="slide foto">
+      <img src="./multimedia/adidas.png" alt="1" style="width:100%">
+      <div class="texto"></div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/costco.jpeg" alt="2" style="width:100%">
+      <div class="texto">COSTCO WHOLESALE</div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/durex.png" alt="3" style="width:100%">
+      <div class="texto">DUREX</div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/nike.png" alt="4" style="width:100%">
+      <div class="texto">NIKE</div>
+    </div>
+
+    <div class="slide foto">
+      <img src="./multimedia/zara.png" alt="5" style="width:100%">
+      <div class="texto">ZARA</div>
+    </div>
+
+    <a class="anterior" onclick="mas(-1)">&#10094;</a>
+    <a class="siguiente" onclick="mas(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="puntitos" onclick="DIAactual(1)"></span>
+      <span class="puntitos" onclick="DIAactual(2)"></span>
+      <span class="puntitos" onclick="DIAactual(3)"></span>
+      <span class="puntitos" onclick="DIAactual(4)"></span>
+      <span class="puntitos" onclick="DIAactual(5)"></span>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="invierte">
+
+      <a href="#inversion" name="inversion" onclick="invierte()">Invierte en esta empresa </a><span class="popuptext" id="myPopup">Gracias por su inversión, se va a arruinar seguro. <img src=./multimedia/fajo.jpg alt=fajo style="width:50px;height:30px"><img src=./multimedia/fajo.jpg alt=fajo style="width:50px;height:30px"></span>
+
+      <select name="acciones">
+      <option>--Elige el número de acciones--</option>
+      <option>1 Acción</option>
+      <option>2 Acciones</option>
+      <option>3 Acciones</option>
+      <option>4 Acciones</option>
+      <option>5 Acciones</option>
+      <option>6 Acciones</option>
+      <option>7 Acciones</option>
+      <option>8 Acciones</option>
+      <option>9 Acciones</option>
+      <option>10 Acciones</option>
+      <option>+10 Acciones</option>
+
+      </select>
+    </div>
+
+    <div class="bolsa">
+      <img src="./multimedia/bolsa.gif" alt="" style="width:15%">
+      <p>IBEX 35</p>
+      <img src="./multimedia/bolsa.gif" alt="" style="width:15%">
+      <p>LONDRES</p>
+      <img src="./multimedia/bolsa.gif" alt="" style="width:15%">
+      <p>NUEVA YORK</p>
+      <img src="./multimedia/bolsa.gif" alt="" style="width:15%">
+      <p>CHINA</p>
+    </div>
+
+    <footer>
+           <div class="footer-entero">
+            <div class="cuerpo-footer">
+              <div class="columa1">
+              <h1>Mas informacion sobre el banco</h1>
+              <p>Esta página solo está destinada al proyecto, aprendemos y hacemos lo que podemos.</p>
+              </div>
+              <div class="columa2">
+              <h1>Modernizate</h1>
+
+              <div class="fila">
+                  <i class="fab fa-facebook-f"></i>
+                  <label>Siguenos en Facebook</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-twitter"></i>
+                  <label>Enterate sobre nuestras publicaciones en Twitter</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-instagram"></i>
+                  <label>Siguenos en Instagram</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-google-plus-g"></i>
+                  <label>Te mandaremos actualizaciones por Google Plus</label>
+              </div>
+              </div>
+              <div class="columa3">
+
+              <h1>Informacion Contactos</h1>
+
+              <div class="fila2">
+                  <i class="fas fa-igloo"></i>
+                  <label>Coria del Río</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-phone"></i>
+                  <label>+34-691211434</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-paper-plane"></i>
+                   <label>PibranBank@gmail.com</label>
+                 </div>
+                 </div>
+                 </div>
+               </div>
+               <div class="cositas">
+               <div class="footer">
+               <div class="copyright">
+                 © 2019 Todos los Derechos Reservados | <a href="">PIBRAN BANK<i class="fas fa-piggy-bank"></i></a>
+             </div>
+             <div class="informacion">
+             <a href="">Informacion Compañía</a> | <a href="./politica.html">Privacion y Politica</a> | <a href="./terminos.html">Terminos y Condiciones</a>
+            </div>
+            </div>
+            </div>
+           </footer>
+<script type="text/javascript" src="./js/bolsa.js">
+
+</script>
+</body>
+</html>

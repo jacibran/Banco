@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ahorra con nosotros</title>
+    <link rel="stylesheet" href="./css/ahorra.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="Image/png" href="./multimedia/favicon.png">
+  </head>
+  <body>
+    <div class="navbar">
+    <a href="./index.html">PIBRAN Bank <i class="fas fa-piggy-bank"></i></a>
+      <a href="./main.html">Inicio</a>
+      <a href="./sobre-nozotros.html">Sobre nuestro banco</a>
+      <a href="./c-familiar.html">Cuenta familiar</a>
+      <div class="dropdown">
+      <button class="botondes" onclick="desplegable()">Mi cuenta
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="DESPLEGABLE">
+        <a href="./bolsa.html">Invierte en bolsa</a>
+        <a href="./ahorra.html">Empieza a ahorrar ahora</a>
+      </div>
+      </div>
+    </div>
+    <div class="calculadora">
+    	<div class="pantalla">
+    		<div id="resultado"></div>
+    	</div>
+    	<div class="teclas">
+    		<div class="numeros">
+    			<div>
+    		        <button id="n1">1</button>
+    		        <button id="n2">2</button>
+    		        <button id="n3">3</button>
+    	    	</div>
+    			<div>
+    		        <button id="n4">4</button>
+    		        <button id="n5">5</button>
+    		        <button id="n6">6</button>
+    		    </div>
+    		    <div>
+    		        <button id="n7">7</button>
+    		        <button id="n8">8</button>
+    		        <button id="n9">9</button>
+    		    </div>
+    		    <div>
+    		        <button id="n0">0</button>
+    		    </div>
+    	    </div>
+    		<div class="op">
+    		    <button id="s">+</button>
+    		    <button id="r">-</button>
+    		    <button id="d">÷</button>
+    		    <button id="m">x</button>
+    	    </div>
+    	</div>
+    	<div class="sr">
+    		<button id="sr">=</button>
+    	</div>
+    </div>
+
+    <div class="main-tablaprecio">
+          <div class="tablaprecio">
+            <a name="paga"><h1>Afiliate a nuestro banco</h1></a>
+        </div>
+      </div>
+
+        <div class="presio">
+          <div class="col">
+
+            <div class="tablaa">
+              <h3>PIBRAN Basic<i class="fas fa-piggy-bank"></i></h3>
+              <div class="precio">
+                25€
+                <span>Trimestral</span>
+              </div>
+
+              <ul>
+                <li><strong>✓</strong> PIBRAN electron</li>
+                <li><strong>✓</strong> Atención cliente</li>
+                <li><strong>✓</strong> Financiación -> 10 meses</li>
+                <li><strong>✓</strong> Zona flexy</li>
+                <li><strong>✓</strong> 1 mes de HBO</li>
+              </ul>
+              <a href="#formulario">Solicitar ya</a>
+            </div>
+
+          </div>
+          <div class="col">
+
+            <div class="tablaa">
+              <h3>PIBRAN Medium<i class="fas fa-piggy-bank"></i></h3>
+
+              <div class="pop">Popular</div>
+
+              <div class="precio">
+                35€
+                <span>Trimestral</span>
+              </div>
+
+              <ul>
+                <li><strong>✓</strong> PIBRAN ciberbank</li>
+                <li><strong>✓</strong> Atención cliente  12/7</li>
+                <li><strong>✓</strong> Financiación -> 15 meses</li>
+                <li><strong>✓</strong> Zona flexy</li>
+                <li><strong>✓</strong> 3 mes de HBO</li>
+              </ul>
+              <a href="#formulario">Solicitar ya</a>
+            </div>
+
+          </div>
+          <div class="col">
+
+            <div class="tablaa">
+              <h3>PIBRAN Advanced<i class="fas fa-piggy-bank"></i></h3>
+              <div class="precio">
+                60€
+                <span>Trimestral</span>
+              </div>
+
+              <ul>
+                <li><strong>✓</strong> PIBRAN White</li>
+                <li><strong>✓</strong> Atención cliente</li>
+                <li><strong>✓</strong> Financiación -> 30 meses</li>
+                <li><strong>✓</strong> Zona flexy</li>
+                <li><strong>✓</strong> 6 mes de HBO & NETFLIX</li>
+              </ul>
+              <a href="#formulario">Solicitar ya</a>
+            </div>
+
+
+          </div>
+          <div class="col">
+
+            <div class="tablaa">
+              <h3>PIBRAN Expert<i class="fas fa-piggy-bank"></i></h3>
+
+              <div class="pop">Full PACK</div>
+
+              <div class="precio">
+                110€
+                <span>Anual</span>
+              </div>
+
+              <ul>
+                <li><strong>✓</strong> PIBRAN Black</li>
+                <li><strong>✓</strong> Atención cliente 24/7</li>
+                <li><strong>✓</strong> Financiación -> 30 meses</li>
+                <li><strong>✓</strong> Zona flexy</li>
+                <li><strong>✓</strong> 1 año de HBO & NETFLIX</li>
+              </ul>
+              <a href="#formulario">Solicitar ya</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="seccion-contacto">
+
+          <h1>Rellena para afiliarte</h1>
+          <div class="borde1"></div>
+          <form class="formulario-contacto" action="./agradecimiento.html" method="post">
+            <input type="text" class="formulario-contacto-text" placeholder="Tu nombre completo" required>
+            <input type="email" class="formulario-contacto-text" placeholder="Tu e-mail" required>
+            <input type="text" class="formulario-contacto-text" placeholder="Tu número de teléfono" required>
+            <textarea class="formulario-contacto-text" placeholder="Tu opinión sobre nuestro sitio web"></textarea>
+            <input type="submit" class="formulario-contacto-btn" value="Enviar suscripción">
+          </form>
+        </div>
+        <a name ="formulario"></a>
+    <footer>
+           <div class="footer-entero">
+            <div class="cuerpo-footer">
+              <div class="columa1">
+              <h1>Mas informacion sobre el banco</h1>
+              <p>Esta página solo está destinada al proyecto, aprendemos y hacemos lo que podemos.</p>
+              </div>
+              <div class="columa2">
+              <h1>Modernizate</h1>
+
+              <div class="fila">
+                  <i class="fab fa-facebook-f"></i>
+                  <label>Siguenos en Facebook</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-twitter"></i>
+                  <label>Enterate sobre nuestras publicaciones en Twitter</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-instagram"></i>
+                  <label>Siguenos en Instagram</label>
+              </div>
+              <div class="fila">
+                  <i class="fab fa-google-plus-g"></i>
+                  <label>Te mandaremos actualizaciones por Google Plus</label>
+              </div>
+              </div>
+              <div class="columa3">
+
+              <h1>Informacion Contactos</h1>
+
+              <div class="fila2">
+                  <i class="fas fa-igloo"></i>
+                  <label>Coria del Río</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-phone"></i>
+                  <label>+34-691211434</label>
+               </div>
+              <div class="fila2">
+                  <i class="fas fa-paper-plane"></i>
+                   <label>PibranBank@gmail.com</label>
+                 </div>
+                 </div>
+                 </div>
+               </div>
+               <div class="cositas">
+               <div class="footer">
+               <div class="copyright">
+                 © 2019 Todos los Derechos Reservados | <a href="./main.html">PIBRAN BANK<i class="fas fa-piggy-bank"></i></a>
+             </div>
+             <div class="informacion">
+             <a href="">Informacion Compañía</a> | <a href="./politica.html">Privacion y Politica</a> | <a href="./terminos.html">Terminos y Condiciones</a>
+            </div>
+            </div>
+            </div>
+           </footer>
+<script type="text/javascript" src="./js/ahorra.js">
+
+</script>
+  </body>
+</html>
