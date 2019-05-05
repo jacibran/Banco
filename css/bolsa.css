@@ -268,7 +268,7 @@ img {vertical-align: middle;}
 }
 
 .invierte{
-  padding-left: 30%;margin-bottom: 30px;margin-top: 20px;}
+  padding-left: 35%;margin-bottom: 30px;margin-top: 20px;}
 .invierte a{
   display: inline-block;
   color: #013A69;
@@ -351,6 +351,10 @@ img {vertical-align: middle;}
   to {opacity:1 ;}
   }
 /**Slide de imagenes**/
+/**Gráficos**/
+.bolsa {text-align: center;}
+.bolsa p{color: #013A69;display: inline-block;border: 2px solid #013A69;margin: 1%;border-radius: 20px;padding: 1%;}
+.bolsa img{border: 2px solid red;padding: 5px;margin-bottom: 10%;margin-top: 10%;}
 /**Footer**/
 footer{
     width: 100%;
